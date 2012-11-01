@@ -36,7 +36,7 @@ public class RecycledNumbers {
 
 		caseNumber = 1;
 		String path = new File(".").getAbsolutePath();
-		File fileIn = new File(path+"/src/numbers/large.in");
+		File fileIn = new File(path+"/large.in");
 		FileInputStream fileInputStream = null;
 		BufferedInputStream inputStream = null;
 		BufferedReader reader = null;
